@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22212C;
+}
+
+.card {
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    color: #837E9F;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+}
+
+.profile {
+    position: absolute;
+    width: 348px;
+    height: 292px;
+    left: 40px;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 128px;
+    height: 128px;
+    background: url(image.png);
+    border: 2px solid #00FF00;
+    border-radius: 100px;
+    margin: 32px 118px 30px 102px;
+}
+
+.profile h1 {
+    width: 348px;
+    height: 26px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    padding: 0px 84px 10px 68px;
+}
+
+.profile p {
+    width: 348px;
+    height: 17px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 10px 118px 49px 102px;
+}
+
+.contact {
+    position: absolute;
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+}
+
+
+.contact li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: row;
+    width: 348px;
+    padding: 15px 0px 10px 40px;
+}
+
+.contact li a {
+    display: inline;
+    width: 200px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;  
+    padding-left: 20px;
+}
+
+.contact li p {
+    display: inline;
+    width: 200px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;  
+    padding-left: 20px;
+}
+
+.contact li a {
+    color:#837E9F;
+    outline: none;
+    text-decoration: none;
+}
+
+.contact li img {
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+}
+
+.technologies {
+    position: absolute;
+    width: 348px;
+    height: 208px;
+    left: 40px;
+    top: 740px;
+}
+
+.technologies h1 {
+    width: 121px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 35px 0px 20px 20px;
+}
+
+.technologies ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    height: 153px;
+}
+
+.technologies li {   
+    display: flex;
+    list-style-type: none;
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologies li p {
+    display: flex;
+    font-weight: 700;
+    font-size: 10px;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projects h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.onix {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 448px;
+    top: 157px;
+}
+
+.onix1 {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 939px;
+    top: 157px;
+}
+
+.recentPost {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 373px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.recentPost h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.post {
+    position: absolute;
+    width: 952px;
+    height: 201px;
+    left: 448px;
+    top: 489px;
+}
+
+@media screen and (max-width: 1000px) {
+    .projects {
+        width: 461px;
+    }
+    .onix1 {
+        top: 373px;
+        left: 448px;
+    }
+
+    .recentPost {
+        width: 461px;
+        top: 589px;
+    }
+
+    .post {
+        width: 461px;
+        top: 705px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .profile {
+        width: 410px;
+    }
+
+    .contact {
+        width: 410px;
+         
+    }
+
+    .technologies {
+        width: 410px;
+    }
+
+    
+    
+    .projects {
+        width: 410px;
+        top: 978px;
+        left: 40px;
+    }
+
+    .onix {
+        width: 410px;
+        top: 1094px;
+        left: 40px;
+    }
+
+    .onix1 {
+        width: 410px;
+        top: 1310px;
+        left: 40px;
+    }
+
+    .recentPost {
+        width: 410px;
+        top: 1526px;
+        left: 40px;
+
+    }
+
+    .post {
+        width: 410px;
+        top: 1642px;
+        left: 40px;
+    }
+    
+}
+
+
+
