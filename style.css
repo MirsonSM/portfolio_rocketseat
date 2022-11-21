@@ -11,6 +11,29 @@ body {
     background-color: #22212C;
 }
 
+.container {
+    position: relative;
+    left: 20px;
+    width: 94%;
+    display: flex;
+}
+
+.personinformation {
+    position: relative;  
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.works {
+    position: relative;
+    width: 70%;
+    left: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .card {
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -21,11 +44,8 @@ body {
 }
 
 .profile {
-    position: absolute;
-    width: 348px;
+    width: 100%;
     height: 292px;
-    left: 40px;
-    top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,11 +83,9 @@ body {
 }
 
 .contact {
-    position: absolute;
-    width: 348px;
+    margin-top: 30px;
+    width: 100%;
     height: 348px;
-    left: 40px;
-    top: 362px;
 }
 
 
@@ -113,11 +131,10 @@ body {
 }
 
 .technologies {
-    position: absolute;
-    width: 348px;
+    margin-top: 30px;
+    width: 100%;
     height: 208px;
-    left: 40px;
-    top: 740px;
+    
 }
 
 .technologies h1 {
@@ -159,11 +176,8 @@ body {
 }
 
 .projects {
-    position: absolute;
-    width: 952px;
+    width: 100%;
     height: 86px;
-    left: 448px;
-    top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,28 +191,28 @@ body {
     line-height: 25px;
 }
 
+.onixcontainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .onix {
-    position: absolute;
-    width: 461px;
+    width: 48%;
     height: 186px;
-    left: 448px;
-    top: 157px;
+    
 }
 
 .onix1 {
-    position: absolute;
-    width: 461px;
+    width: 48%;
     height: 186px;
-    left: 939px;
-    top: 157px;
 }
 
 .recentPost {
-    position: absolute;
-    width: 952px;
+    margin-top: 30px;
+    width: 100%;
     height: 86px;
-    left: 448px;
-    top: 373px;
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -211,82 +225,46 @@ body {
 }
 
 .post {
-    position: absolute;
-    width: 952px;
+    margin-top: 30px;
+    width: 100%;
     height: 201px;
-    left: 448px;
-    top: 489px;
 }
 
 @media screen and (max-width: 1000px) {
-    .projects {
-        width: 461px;
-    }
-    .onix1 {
-        top: 373px;
-        left: 448px;
-    }
 
-    .recentPost {
-        width: 461px;
-        top: 589px;
-    }
+.personinformation {
+    width: 80%;
+}
 
-    .post {
-        width: 461px;
-        top: 705px;
-    }
+.works {
+    width: 100%;
+}  
     
 }
 
-@media screen and (max-width: 500px) {
-    .profile {
-        width: 410px;
+@media  screen and (max-width: 1073px) {
+    .technologies ul{
+        height: 200px;
     }
-
-    .contact {
-        width: 410px;
-         
-    }
-
+    
     .technologies {
-        width: 410px;
+        height: 250px;
     }
-
-    
-    
-    .projects {
-        width: 410px;
-        top: 978px;
-        left: 40px;
-    }
-
-    .onix {
-        width: 410px;
-        top: 1094px;
-        left: 40px;
-    }
-
-    .onix1 {
-        width: 410px;
-        top: 1310px;
-        left: 40px;
-    }
-
-    .recentPost {
-        width: 410px;
-        top: 1526px;
-        left: 40px;
-
-    }
-
-    .post {
-        width: 410px;
-        top: 1642px;
-        left: 40px;
-    }
-    
 }
 
+@media screen and (max-width: 800px) {
+    .container {
+        display: block;
+        width: 90%;
+    }
+    .personinformation {
+        width: 100%;
+    }
 
-
+    .works {
+        margin-top: 30px;
+        width: 100%;
+        left: 0px;
+    }  
+    
+}
