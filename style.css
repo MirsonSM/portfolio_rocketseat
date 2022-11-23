@@ -16,6 +16,7 @@ body {
     left: 20px;
     width: 94%;
     display: flex;
+    margin-bottom: 30px;
 }
 
 .personinformation {
@@ -373,6 +374,7 @@ body {
     .container {
         display: block;
         width: 90%;
+        
     }
     .personinformation {
         width: 100%;
@@ -386,6 +388,7 @@ body {
     .post {
         flex-direction: column;
         height: 450px;
+
     }
 
     .photopost {
