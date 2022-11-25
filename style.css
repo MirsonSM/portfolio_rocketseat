@@ -24,7 +24,6 @@ body {
     width: 30%;
     flex-wrap: wrap;
     justify-content: flex-start;
-    
 }
 
 .works {
@@ -187,6 +186,10 @@ body {
     line-height: 25px;
 }
 
+.projects p  {
+    cursor: pointer;
+}
+
 .onixcontainer {
     margin-top: 30px;
     display: flex;
@@ -196,9 +199,7 @@ body {
 
 .onix {
     width: 48%;
-    height: 186px;
-
-    
+    height: 186px;    
 }
 
 .onix1 {
@@ -267,13 +268,16 @@ body {
     display: flex;
     align-items: center;
     padding-left: 20px;
+    
 }
 
 .recentPost h1 {
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
+    cursor: pointer;
 }
+
 
 .post {
     margin-top: 30px;
@@ -329,10 +333,21 @@ body {
     margin-right: 20px;
 }
 
+footer {
+    width: 94%;
+    color: #837E9F;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-size: 14px;
+}
+
 
 
 @media screen and (max-width: 1000px) {
-
 .personinformation {
     width: 80%;
 }
@@ -342,7 +357,6 @@ body {
 }
 
 .onixcontainer {
-    display: flex;
     flex-direction: column;
 }
 
@@ -408,4 +422,5 @@ body {
         margin-right: 10px;
     }
 }
+
 
