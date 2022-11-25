@@ -68,6 +68,8 @@ body {
     height: 26px;
     font-family: 'Merriweather Sans';
     font-style: normal;
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 23px;
     line-height: 29px;
@@ -75,10 +77,12 @@ body {
 }
 
 .profile p {
-    width: 348px;
+    width: 100%;
     height: 17px;
     font-family: 'Merriweather Sans';
     font-style: normal;
+    display: flex;
+    justify-content: space-around;
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
@@ -336,10 +340,10 @@ body {
 footer {
     width: 94%;
     color: #837E9F;
-    height: 25px;
+    height: 80px;
+    align-items: center;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-size: 14px;
